@@ -1,0 +1,10 @@
+#login-form-container{
+    /* width: 500px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border: 1px solid rgb(85, 73, 73);
+    margin: 5rem;
+    padding: 1rem;
+}
