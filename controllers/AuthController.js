@@ -6,8 +6,12 @@ dotenv.config();
 
 router.post('/login', (req, res) => {
     const { userName, password } = req.body;
+    const credentials = {
+        userName : 'root',
+        password: 'root@123'
+    }
 
-    if (userName === process.env.USER_NAME && password === process.env.PASSWORD) {
+    if (userName === credentials.userName && password === credentials.password) {
         const tokenData = {
             userName
         };
